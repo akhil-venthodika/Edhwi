@@ -144,12 +144,6 @@ nav {
   padding-right: 15px;
 }
 
-.centre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .quality img {
   display: block;
   margin-left: auto;
