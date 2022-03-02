@@ -24,17 +24,30 @@ nav {
   z-index: 101 !important;
 }
 
-.container {
+.container1 {
   height: 100vh;
   
 }
-.container img {
+.container1 img {
   width: 100%;
   position: absolute;
   height: 110vh;
   object-fit: cover;
   z-index: -1;
 }
+
+.mousemove1 {
+  height: 100vh;
+}
+
+.mousemove1 img {
+  width: 90%;
+  position: absolute;
+  height: 110vh;
+  object-fit: contain;
+  z-index: -1;
+}
+
 .main-title {
   color: #FFFFFF !important;
   position: absolute;
