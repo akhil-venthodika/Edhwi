@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow: hidden !important; */
+  overflow-x: clip !important;
   color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
 }
@@ -27,7 +27,7 @@ nav {
   position: absolute;
   max-width: 30em !important;
   max-height: 30em !important;
-  z-index: 101 !important;
+  z-index: 103 !important;
 }
 
 .container1 {
@@ -143,6 +143,7 @@ nav {
  */
 
 .quality {
+  
   background: #F7FDFF;
   margin-top: 30px;
   padding-top: 30px;
@@ -150,12 +151,12 @@ nav {
   padding-right: 10%;
 }
 
-.quality img {
+/* .quality img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+} */
 
 .lefttext {
   text-align: right;
@@ -186,24 +187,25 @@ nav {
   }
 
   .container img {
-    width: 100%;
+  width: 100%;
   position: absolute;
   height: 100%;
   object-fit: contain;
-  z-index: -1;
+  
   }
 
   .mousemove1 {
-    height: 30vh;
-  }
-  
+    margin-top: -406px;
+    height: 78vh;
+}
   .mousemove1 img {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    height: 40vh;
     object-fit: contain;
-    z-index: -1;
+    
   }
+
+  
 }
 
 
@@ -222,6 +224,8 @@ Custom cursor
   cursor: url('./dwnd.png'), auto;
   max-width: 50%;
 }
+
+
 
 /* .object {
   width: 20%;

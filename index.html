@@ -18,16 +18,17 @@
   <body>
     
     <!-- Hero Slider Parralax -->
-    <section style="background-color: aqua;">
+    <section >
       <div class="container1 " >
-        <!-- <img src="./12.png" style="z-index: 98;" class="bg1"  alt="" />
-        <img src="./13.png"  class="girl" alt="" />
-        <img src="./logo.png" class="logom" alt="" />
-        <img src="./14.png" style="z-index: 99;" class="rock" alt="" />
-        <img src="./11.png" style="z-index: 102;" class="wt1"  alt="" /> -->
-        <div class="main-title" style="z-index: 103;">
-          <hr><br>
-          <p>
+        <img src="./12.png" style="z-index: 99;" class="bg1 rellax" data-rellax-speed="-5"  alt="" />
+        <img src="./13.png"  style="z-index: 98;" class="girl rellax" alt="" data-rellax-speed="1" />
+        <img src="./logo.png"  class="logom rellax" alt="" />
+        <img src="./14.png" style="z-index: 101;" class="rock rellax" alt="" data-rellax-speed="3"/>
+        <img src="./11.png" style="z-index: 102;" class="wt1 rellax"  alt="" data-rellax-speed="2"/>
+        <div class="main-title" style="z-index: 104;">
+          <br>
+          <hr class="rellax" data-rellax-speed="-1">
+          <p class="rellax" data-rellax-speed="-1">
             <a href="#" class="link">Our Process</a>
             <a href="#" class="link">Stories</a>
             <a href="#" class="link">Products</a>
@@ -36,13 +37,13 @@
         </div>
       </div>
       
-      <!-- <div class="content" style="z-index: 103;">  
+      <!-- <div class="content" style="z-index: 104;">  
       </div> -->
     </section>
 
     <!-- Product Parralax -->
-    <section style="background-color: rgb(46, 119, 255);">
-      <div class="mousemove1" style="margin-top: -400px;">  
+    <section >
+      <div class="mousemove1" >  
       <div class="row">
       <img src="./8.png" class="object" data-value="3" style="z-index: 155 ;" alt="" >
       <img src="./7.png" class="object" data-value="3" style="z-index: 156 ;" alt="">
@@ -63,7 +64,7 @@
 
     <!-- Our Secrets of Quality -->
     <section class="quality">
-      <div class="container" >
+      
         <div class="row ">
           <h2 class="sectitle">Our Secrets of Quality</h1>
           <img src="#" class=""/><br><br>
@@ -100,7 +101,7 @@
         </div><br><br>
       
        
-      </div>  
+      
        
     </section>
 
@@ -112,20 +113,20 @@
          <img src="#" class=""/>
         </div>
         <div class="row">
-          <div class="col">
-           <img src="./edhwilite 1.png" class=""/>
+          <div class="col-lg-4">
+           <img src="./edhwilite 1.png" class="img-fluid"/>
            <!-- <p>Edhwi Lite 100% Pure & Natural Coconut Oil</p>
            <img src="" class=""/> -->
           </div>
 
-          <div class="col">
-           <img src="./edhwilite 1.png" class=""/>
+          <div class="col-lg-4">
+           <img src="./edhwilite 1.png" class="img-fluid"/>
            <!-- <p>Edhwi Lite 100% Pure & Natural Coconut Oil</p>
            <img src="" class=""/> -->
           </div>
 
-          <div class="col">
-            <img src="./edhwilite 1.png" class="" data-tilt/>
+          <div class="col-lg-4">
+            <img src="./edhwilite 1.png" class="img-fluid" data-tilt/>
            <!-- <p>Edhwi Lite 100% Pure & Natural Coconut Oil</p>
            <img src="#" class=""/> -->
           </div>
@@ -167,12 +168,17 @@
     <footer>
       
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script> -->
     <script src="http://cdn.owl-generation.com/script.js"></script>
-    <script src="http://cdn.owl-generation.com/script1.js"></script>
+    <!-- <script src="http://cdn.owl-generation.com/script1.js"></script> -->
     <script src="./vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+      // Accepts any class name
+      var rellax = new Rellax('.rellax');
+    </script>
   </body>
 </html>
