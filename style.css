@@ -13,6 +13,11 @@ nav {
   justify-content: space-between;
 }
 
+.sectitle {
+  text-align: center;
+  padding: 10px;
+}
+
 .logom{
   left: 0 !important;
   right: 0 !important;
@@ -46,6 +51,8 @@ nav {
   height: 110vh;
   object-fit: contain;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-title {
@@ -124,7 +131,10 @@ nav {
   left: 0 !important;
   object-fit: contain !important;
 }
+
+/*  */
 /* Quality Section CSS */
+/*  */
 
 .quality {
   background: #F7FDFF;
@@ -146,7 +156,15 @@ nav {
   margin-right: auto;
   width: 50%;
 }
+
+.lefttext {
+  text-align: right;
+}
+
+/*  */
 /* Media Quries */
+/*  */
+
 @media only screen and (max-width: 500px) {
   .container {
     height: 70vh;
