@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden !important; */
   color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
 }
@@ -31,10 +32,13 @@ nav {
 
 .container1 {
   height: 100vh;
+  width: 100%;
+  
   
 }
 .container1 img {
   width: 100%;
+  box-sizing: border-box;
   position: absolute;
   height: 110vh;
   object-fit: cover;
@@ -46,7 +50,7 @@ nav {
 }
 
 .mousemove1 img {
-  width: 90%;
+  width: 100%;
   position: absolute;
   height: 110vh;
   object-fit: contain;
@@ -157,6 +161,12 @@ nav {
   text-align: right;
 }
 
+/*
+/
+ Product Section CSS 
+/
+ */
+
 .products {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -212,3 +222,7 @@ Custom cursor
   cursor: url('./dwnd.png'), auto;
   max-width: 50%;
 }
+
+/* .object {
+  width: 20%;
+} */
